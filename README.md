@@ -1,9 +1,9 @@
-# PizzaHub (Server)
+﻿# PizzaHub (Server)
 
 REST API for **PizzaHub**, a pizza ordering & delivery platform. Handles menu items, orders, admin moderation, Stripe subscriptions and JWT-verified, role-based access.
 
-- **Live API:** `<ADD LIVE API URL>`
-- **Client repo:** `<ADD CLIENT REPO URL>` | **Server repo:** `<ADD SERVER REPO URL>`
+- **Live API:** `https://pizzahub-server-chi.vercel.app`
+- **Client repo:** `https://github.com/Maksud181351/pizzahub-client` | **Server repo:** `https://github.com/Maksud181351/pizzahub-server`
 
 ## Tech stack (npm packages)
 `express`, `mongodb`, `jose` (JWT/JWKS verification), `stripe`, `cors`, `helmet`, `dotenv`.
@@ -85,3 +85,4 @@ Configure the production endpoint `https://<api>/api/stripe/webhook` with those 
 
 ## Deploying
 Works on Vercel (`vercel.json` included) or any Node host (Render, Railway). Set all env vars, make `CLIENT_URL` the exact production client origin, and use the production webhook secret.
+
